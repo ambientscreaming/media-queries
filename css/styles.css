@@ -1,8 +1,8 @@
 body {
-    background-color: teal;
+    background-color: white;
 
     @media (min-width: 768px) {
-        background-color: black;
+        /* background-color: black; */
     }
 
     @media (min-width: 1200px) {
@@ -10,10 +10,15 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) {
-    .column {
-        width: 300px;
+.column {
+    width: 100%;
+    padding: 12px;
+    border: solid;
+    border-color: pink;
+    font-family: cursive;
+
+    @media (min-width: 768px) {
         float: left;
-        padding: 20px;
+        width: 45%;
     }
 }
